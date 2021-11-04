@@ -3,18 +3,26 @@
     <head>
         <title>Weather App</title>
         <link rel="stylesheet" href="weather.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="weather.js"></script>
     </head>
 
     <body>
         <div class="container">
-            <h2 id = "city">Leeds</h2>
+            <h2 id = "city"></h2>
             <div class ="middle">
                 <img id = "icon" alt ="icon" src= "">
                 <div class = "degrees">
-                    <h1 id = "temp">19</h1>
+                    <h1 id = "temp"></h1>
                     <span>&#176;</span>
                 </div>
-                <h2 class="desc">Sunny</h2>
+                <h2 id="desc"></h2>
+                <div id = "weather">
+                    <p id = "humid"></p>
+                    <p id="pressure"></p>
+                    <p id="feels_like"></p>
+                    <p id = "speed"> </p>
+                </div>
             </div>
         </div>
     </body>

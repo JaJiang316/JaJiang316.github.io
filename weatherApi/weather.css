@@ -32,9 +32,25 @@ span {
   padding: 25px 5px;
 }
 
+#desc {
+  margin-bottom: 20px;
+}
+
 .degrees {
   display: grid;
   grid-template-columns: auto auto;
   justify-content: center;
   margin-left: 2rem;
+}
+
+#weather {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+#weather p {
+  width: 35%;
+  flex-grow: 6;
 }
