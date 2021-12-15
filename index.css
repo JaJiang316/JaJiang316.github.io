@@ -96,3 +96,9 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+  z-index: 0;
+}
